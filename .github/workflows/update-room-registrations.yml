@@ -1,0 +1,34 @@
+name: Update room registrations
+
+on:
+  repository_dispatch:
+    types:
+      - room_registration_submitted
+
+permissions:
+  contents: write
+
+jobs:
+  update-room-registrations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update registration data
+        run: node scripts/update-room-registrations.mjs
+        env:
+          REGISTRATION_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+
+      - name: Commit registration update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/room-registrations.json
+          if git diff --cached --quiet; then
+            echo "No registration changes to commit."
+          else
+            git commit -m "Update room registration list"
+            git push
+          fi
