@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T04:20:04.061Z",
+  "updatedAt": "2026-07-15T04:25:44.309Z",
   "rooms": {
     "Room 1": [
       {
@@ -9,6 +9,12 @@
       }
     ],
     "Room 2": [],
-    "Room 3": []
+    "Room 3": [
+      {
+        "name": "Nguyễn Thị Ngọc Chuyển",
+        "subject": "ICT",
+        "updatedAt": "2026-07-15T04:25:44.304Z"
+      }
+    ]
   }
 }
