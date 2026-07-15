@@ -59,6 +59,10 @@ function sortParticipants(participants) {
   return participants.sort((a, b) => a.name.localeCompare(b.name, "vi", { sensitivity: "base" }));
 }
 
+function getParticipantKey(name, subject) {
+  return `${normalizeValue(name).toLowerCase()}|${normalizeValue(subject).toLowerCase()}`;
+}
+
 function flattenPayload(value, pathParts = []) {
   const parsedValue = parseMaybeJson(value);
 
@@ -169,8 +173,9 @@ validRooms.forEach((roomName) => {
 });
 
 validRooms.forEach((roomName) => {
+  const incomingKey = getParticipantKey(name, subject);
   data.rooms[roomName] = data.rooms[roomName].filter((participant) => {
-    return normalizeValue(participant.name).toLowerCase() !== name.toLowerCase();
+    return getParticipantKey(participant.name, participant.subject) !== incomingKey;
   });
 });
 
