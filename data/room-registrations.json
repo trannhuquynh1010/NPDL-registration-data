@@ -1,8 +1,14 @@
 {
-  "updatedAt": "",
+  "updatedAt": "2026-07-15T04:13:23.625Z",
   "rooms": {
     "Room 1": [],
-    "Room 2": [],
+    "Room 2": [
+      {
+        "name": "Trần Như Quỳnh",
+        "subject": "Natural Science",
+        "updatedAt": "2026-07-15T04:13:23.625Z"
+      }
+    ],
     "Room 3": []
   }
 }
