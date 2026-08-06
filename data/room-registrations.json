@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:29:04.070Z",
+  "updatedAt": "2026-08-06T10:50:29.436Z",
   "rooms": {
     "Room 1": [
       {
@@ -28,6 +28,11 @@
         "name": "Phạm Hồng Mỹ Duyên",
         "subject": "Social Science",
         "updatedAt": "2026-08-06T09:49:38.242Z"
+      },
+      {
+        "name": "Thái Thị Thanh Thảo",
+        "subject": "Lit",
+        "updatedAt": "2026-08-06T10:50:29.409Z"
       },
       {
         "name": "Trần Như Quỳnh",
