@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T11:09:50.729Z",
+  "updatedAt": "2026-08-06T12:21:14.180Z",
   "rooms": {
     "Room 1": [
       {
@@ -16,6 +16,11 @@
         "name": "Nguyễn Thị Thu Hiền",
         "subject": "Natural Science",
         "updatedAt": "2026-08-06T09:48:35.453Z"
+      },
+      {
+        "name": "Võ Trọng Huy",
+        "subject": "Arts",
+        "updatedAt": "2026-08-06T12:21:13.933Z"
       }
     ],
     "Room 2": [
