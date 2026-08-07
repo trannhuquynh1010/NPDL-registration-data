@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T00:43:29.360Z",
+  "updatedAt": "2026-08-07T00:53:01.418Z",
   "rooms": {
     "Room 1": [
       {
@@ -140,6 +140,11 @@
         "name": "Nguyễn Thành Long",
         "subject": "Math",
         "updatedAt": "2026-08-06T09:57:34.898Z"
+      },
+      {
+        "name": "Nguyễn Thị Cẩm Giang",
+        "subject": "Social Science",
+        "updatedAt": "2026-08-07T00:53:01.173Z"
       },
       {
         "name": "Nguyễn Thị Ngọc Chuyển",
