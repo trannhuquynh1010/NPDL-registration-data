@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T08:53:10.401Z",
+  "updatedAt": "2026-08-11T08:53:55.338Z",
   "rooms": {
     "Room 1": [
       {
@@ -16,6 +16,11 @@
         "name": "Đinh Quang Tín",
         "subject": "Social Science",
         "updatedAt": "2026-08-06T13:52:44.909Z"
+      },
+      {
+        "name": "Đinh Vũ Thuỳ Trang",
+        "subject": "Natural Science",
+        "updatedAt": "2026-08-11T08:53:55.311Z"
       },
       {
         "name": "Hồ Đình Kha",
