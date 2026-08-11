@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T08:37:16.897Z",
+  "updatedAt": "2026-08-11T08:38:04.839Z",
   "rooms": {
     "Room 1": [
       {
@@ -225,6 +225,11 @@
         "name": "Hoàng Mỹ Linh",
         "subject": "Math",
         "updatedAt": "2026-08-08T14:08:55.289Z"
+      },
+      {
+        "name": "Hoàng Ngọc Cảnh",
+        "subject": "ICT",
+        "updatedAt": "2026-08-11T08:38:04.812Z"
       },
       {
         "name": "Huỳnh Quốc Thịnh",
